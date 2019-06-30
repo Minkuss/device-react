@@ -1,0 +1,1 @@
+export { HomePageCategories } from "./HomePageCategories";

@@ -1,0 +1,1 @@
+export { HomePageFeaturedProducts } from "./HomePageFeaturedProducts";
