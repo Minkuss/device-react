@@ -1,0 +1,41 @@
+.home-page-header .container {
+  background-color: #f7e296;
+  position: relative;
+  padding: 56px 60px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.home-page-header__logo {
+  position: absolute;
+  left: 60px;
+  top: -18px;
+}
+
+.home-page-header__user-navigation {
+  display: flex;
+}
+
+.home-page-header__user-navigation input {
+  margin-right: auto;
+}
+
+.home-page-header__user-navigation .navigation-wrapper,
+.home-page-header__main-navigation .navigation-wrapper {
+  width: 50%;
+}
+
+.home-page-header__main-navigation {
+  display: flex;
+}
+
+.home-page-header__main-navigation .catalog {
+  margin-right: auto;
+}
+
+.home-page-header__main-navigation .catalog-list {
+  display: none;
+}
