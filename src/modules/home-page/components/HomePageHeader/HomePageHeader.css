@@ -17,12 +17,24 @@
 
 .home-page-header__user-navigation {
   display: flex;
+  justify-content: space-between;
 }
 
 .home-page-header__user-navigation input {
+  margin-right: 239px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.join {
   margin-right: auto;
 }
 
+.home-page-header__user-navigation .second-child {
+  margin-left: 300px;
+}
+.home-page-header__user-navigation .third-child {
+  margin-left: 130px;
+}
 .home-page-header__user-navigation .navigation-wrapper,
 .home-page-header__main-navigation .navigation-wrapper {
   width: 50%;
@@ -38,4 +50,24 @@
 
 .home-page-header__main-navigation .catalog-list {
   display: none;
+}
+
+.home-page-header__user-navigation .navigation-wrapper {
+  font-family: "Open Sans", sans-serif;
+}
+
+.home-page-header__main-navigation {
+  margin-top: 60px;
+}
+
+.home-page-header__main-navigation .first-child {
+  margin-left: auto;
+}
+
+.home-page-header__main-navigation .second-child {
+  margin-left: 48px;
+}
+
+.home-page-header__main-navigation .third-child {
+  margin-left: 117px;
 }
