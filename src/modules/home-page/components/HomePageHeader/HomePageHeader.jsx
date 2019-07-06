@@ -11,9 +11,15 @@ export const HomePageHeader = () => (
       <nav className="home-page-header__user-navigation">
         <input type="text" placeholder="Поиск по сайту" />
         <div className="navigation-wrapper">
-          <a href="/">Войти</a>
-          <a href="/">Сравнить</a>
-          <a href="/">Корзина</a>
+          <a className="join" href="/">
+            Войти
+          </a>
+          <a className="second-child" href="/">
+            Сравнить
+          </a>
+          <a className="third-child" href="/">
+            Корзина
+          </a>
         </div>
       </nav>
       <nav className="home-page-header__main-navigation">
@@ -29,9 +35,15 @@ export const HomePageHeader = () => (
           <a href="/">Квадрокоптеры</a>
         </div>
         <div className="navigation-wrapper">
-          <a href="/">Доставка</a>
-          <a href="/">Гарантия</a>
-          <a href="/">Контакты</a>
+          <a className="first-child" href="/">
+            Доставка
+          </a>
+          <a className="second-child" href="/">
+            Гарантия
+          </a>
+          <a className="third-child" href="/">
+            Контакты
+          </a>
         </div>
       </nav>
     </div>
