@@ -24,7 +24,7 @@ export const HomePageHeader = () => (
       </nav>
       <nav className="home-page-header__main-navigation">
         <a className="catalog" href="/">
-          Каталог товаров
+          КАТАЛОГ ТОВАРОВ
         </a>
         <div className="catalog-list">
           <a href="/">Виртуальная реальность</a>
@@ -36,13 +36,13 @@ export const HomePageHeader = () => (
         </div>
         <div className="navigation-wrapper">
           <a className="first-child" href="/">
-            Доставка
+            ДОСТАВКА
           </a>
           <a className="second-child" href="/">
-            Гарантия
+            ГАРАНТИЯ
           </a>
           <a className="third-child" href="/">
-            Контакты
+            КОНТАКТЫ
           </a>
         </div>
       </nav>
