@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "MyFont";
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot");
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot?iefix") format("eot"),
+    url("Gilroy/Gilroy-ExtraBold.woff") format("woff"),
+    url("Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
 .home-page-header .container {
   background-color: #f7e296;
   position: relative;
@@ -5,8 +19,9 @@
 }
 
 .container {
-  width: 1160px;
   margin: 0 auto;
+  height: 190px;
+  width: 1160px;
 }
 
 .home-page-header__logo {
@@ -21,19 +36,22 @@
 }
 
 .home-page-header__user-navigation input {
-  margin-right: 239px;
+  /* margin-right: 239px; */
   font-family: "Open Sans", sans-serif;
+  position: relative;
+  left: 35px;
 }
 
 .join {
-  margin-right: auto;
+  position: absolute;
+  left: 665px;
 }
 
 .home-page-header__user-navigation .second-child {
-  margin-left: 300px;
+  margin-left: 350px;
 }
 .home-page-header__user-navigation .third-child {
-  margin-left: 41px;
+  margin-left: 100px;
 }
 .home-page-header__user-navigation .navigation-wrapper,
 .home-page-header__main-navigation .navigation-wrapper {
@@ -81,12 +99,65 @@
   text-decoration: none;
   color: #000;
   font-size: 18px;
-  font-family: "Gilroy";
-  src: url("Gilroy/Gilroy-ExtraBold.eot");
-  src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"),
-    url("Gilroy/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
-    url("Gilroy/Gilroy-ExtraBold.woff") format("woff"),
-    url("Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
+  font-family: "MyFont";
+}
+
+.dec {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.number,
+.number2,
+.number3 {
+  position: absolute;
+  color: white;
+  font-family: "MyFont";
+  font-size: 179.2px;
+  margin-bottom: -66px;
+}
+
+.number2 {
+  display: none;
+}
+
+.number3 {
+  display: none;
+}
+
+.dec2 .child {
+  position: absolute;
+  top: 225px;
+  left: 639px;
+}
+
+.fas.fa-search {
+  position: absolute;
+  left: 65px;
+  top: 58px;
+}
+
+.fas.fa-user {
+  position: absolute;
+  left: 640px;
+  top: 58px;
+}
+
+.far.fa-chart-bar {
+  position: absolute;
+  right: 300px;
+  top: 58px;
+}
+
+.fas.fa-shopping-basket {
+  position: absolute;
+  right: 125px;
+  top: 58px;
+}
+
+.fas.fa-plus {
+  position: absolute;
+  color: #b8a974;
+  left: 240px;
+  top: 142.5px;
 }

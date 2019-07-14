@@ -10,19 +10,24 @@ export const HomePageHeader = () => (
       </div>
       <nav className="home-page-header__user-navigation">
         <input type="text" placeholder="Поиск по сайту" />
+        <i className="fas fa-search" />
         <div className="navigation-wrapper">
+          <i class="fas fa-user" />
           <a className="join" href="/">
             Войти
           </a>
           <a className="second-child" href="/">
             Сравнить
           </a>
+          <i class="far fa-chart-bar" />
+          <i class="fas fa-shopping-basket" />
           <a className="third-child" href="/">
             Корзина
           </a>
         </div>
       </nav>
       <nav className="home-page-header__main-navigation">
+        <i class="fas fa-plus" />
         <a className="catalog" href="/">
           КАТАЛОГ ТОВАРОВ
         </a>
@@ -46,6 +51,14 @@ export const HomePageHeader = () => (
           </a>
         </div>
       </nav>
+      <div className="dec">
+        <span className="number">01</span>
+        <span className="number2">02</span>
+        <span className="number3">03</span>
+      </div>
+      <div className="dec2">
+        <img className="child" src="assets/images/Layer 6.png" />
+      </div>
     </div>
   </header>
 );
