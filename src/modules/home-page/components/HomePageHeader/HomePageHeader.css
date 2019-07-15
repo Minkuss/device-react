@@ -160,6 +160,17 @@
   color: #b8a974;
   left: 240px;
   top: 142.5px;
+  cursor: pointer;
+}
+
+.fas.fa-plus:hover {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
 }
 
 .home-page-header__user-navigation input {
