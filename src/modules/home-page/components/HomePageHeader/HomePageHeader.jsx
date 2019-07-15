@@ -6,13 +6,18 @@ export const HomePageHeader = () => (
   <header className="home-page-header">
     <div className="container">
       <div className="home-page-header__logo">
-        <img src="assets/images/logo.png" alt="Device Logo" />
+        <a href="/">
+          <img src="assets/images/logo.png" alt="Device Logo" />
+        </a>
       </div>
       <nav className="home-page-header__user-navigation">
         <input type="text" placeholder="Поиск по сайту" />
+        <button type="button" className="search">
+          Найти
+        </button>
         <i className="fas fa-search" />
         <div className="navigation-wrapper">
-          <i class="fas fa-user" />
+          <i className="fas fa-user" />
           <a className="join" href="/">
             Войти
           </a>
@@ -20,14 +25,14 @@ export const HomePageHeader = () => (
             Сравнить
           </a>
           <i class="far fa-chart-bar" />
-          <i class="fas fa-shopping-basket" />
+          <i className="fas fa-shopping-basket" />
           <a className="third-child" href="/">
             Корзина
           </a>
         </div>
       </nav>
       <nav className="home-page-header__main-navigation">
-        <i class="fas fa-plus" />
+        <i className="fas fa-plus" />
         <a className="catalog" href="/">
           КАТАЛОГ ТОВАРОВ
         </a>

@@ -161,3 +161,91 @@
   left: 240px;
   top: 142.5px;
 }
+
+.home-page-header__user-navigation input {
+  background-color: #f7e296;
+  border: 0px;
+  width: 200px;
+  opacity: 0.5;
+}
+
+.search {
+  display: none;
+  background-color: #f7e296;
+  width: 85px;
+  height: 49px;
+  border: 2px solid #000;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  position: absolute;
+  right: 900px;
+  top: 29px;
+}
+
+.search:hover {
+  background-color: #000;
+  color: white;
+}
+
+.search:active {
+  color: #4d4d4d;
+}
+
+.home-page-header__user-navigation input:hover {
+  opacity: 0.6;
+}
+
+.home-page-header__user-navigation input:focus {
+  opacity: 1;
+  border-bottom: 2px solid #000;
+}
+
+.home-page-header__logo img:hover {
+  opacity: 0.6;
+}
+
+.home-page-header__logo img:active {
+  opacity: 0.3;
+}
+
+.join:hover {
+  opacity: 0.6;
+}
+
+.join:active {
+  opacity: 0.3;
+}
+
+.second-child:hover {
+  opacity: 0.6;
+}
+
+.second-child:active {
+  opacity: 0.3;
+}
+
+.third-child:hover {
+  opacity: 0.6;
+}
+
+.third-child:active {
+  opacity: 0.3;
+}
+
+.first-child:hover {
+  opacity: 0.6;
+}
+
+.first-child:active {
+  opacity: 0.3;
+}
+
+.catalog:hover {
+  opacity: 0.6;
+}
+
+.catalog:active {
+  opacity: 0.3;
+}
