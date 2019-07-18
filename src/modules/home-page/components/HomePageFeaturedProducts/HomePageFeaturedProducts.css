@@ -1,3 +1,90 @@
+@font-face {
+  font-family: "MyFont";
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot");
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot?iefix") format("eot"),
+    url("Gilroy/Gilroy-ExtraBold.woff") format("woff"),
+    url("Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont2";
+
+  src: url("Gilroy/Gilroy-Light.eot");
+
+  src: url("Gilroy/Gilroy-Light.eot?iefix") format("eot"),
+    url("Gilroy/Gilroy-Light.woff") format("woff"),
+    url("Gilroy/Gilroy-Light.ttf") format("truetype");
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+.featured-product__name {
+  font-family: "MyFont";
+  font-size: 47px;
+}
+
+.featured-product__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.characteristic__value {
+  font-family: "MyFont2";
+  font-size: 36px;
+}
+
+.characteristic__name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+.more {
+  font-family: "MyFont";
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  /* padding: 28%; */
+}
+
+.more:after {
+  z-index: -1;
+  /* display: block; */
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -60%;
+  width: 220px;
+  height: 8px;
+  transform: translateY(-50%);
+  background-color: #f0c52e;
+}
+
+/* .more-block {
+  background-color: #f0c52e;
+  width: 220px;
+  height: 8px;
+} */
+
 .visually-hidden {
   display: none;
+}
+
+.characteristic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-product__characteristics {
+  display: flex;
 }
