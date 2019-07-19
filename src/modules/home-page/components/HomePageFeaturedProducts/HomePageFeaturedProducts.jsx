@@ -30,7 +30,7 @@ export const HomePageFeaturedProducts = () => (
           </li>
           <li className="characteristic">
             <span className="characteristic__value">Карбон</span>
-            <span className="characteristic__name">Материал</span>
+            <span className="characteristic__name3">Материал</span>
           </li>
         </ul>
       </div>
