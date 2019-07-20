@@ -119,3 +119,10 @@
 .featured-product__description {
   margin-left: 480px;
 }
+
+.featured-product img {
+  position: relative;
+  margin-left: 200px;
+  margin-top: -440px;
+  z-index: 2;
+}

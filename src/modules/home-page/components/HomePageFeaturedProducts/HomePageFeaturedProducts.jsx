@@ -34,7 +34,7 @@ export const HomePageFeaturedProducts = () => (
           </li>
         </ul>
       </div>
-      <img src="assets/images/slider-1.png" alt="Селфи палка" />
+      <img className="featured_product_image" src="assets/images/slider-1.png" alt="Селфи палка" />
     </div>
     <ol className="featured-slider__buttons">
       <li className="featured-slider__button">
