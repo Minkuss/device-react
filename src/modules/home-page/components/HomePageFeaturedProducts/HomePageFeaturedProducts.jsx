@@ -38,13 +38,16 @@ export const HomePageFeaturedProducts = () => (
     </div>
     <ol className="featured-slider__buttons">
       <li className="featured-slider__button">
-        <button />
+        <input type="radio" />
+        <label />
       </li>
       <li className="featured-slider__button">
-        <button />
+        <input type="radio" />
+        <label />
       </li>
       <li className="featured-slider__button">
-        <button />
+        <input type="radio" />
+        <label />
       </li>
     </ol>
   </section>

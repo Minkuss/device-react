@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "MyFont";
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot");
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot?iefix") format("eot"),
+    url("Gilroy/Gilroy-ExtraBold.woff") format("woff"),
+    url("Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+.home-page-categories ul li {
+  list-style: none;
+}
+
+.home-page-categories a {
+  font-family: "MyFont";
+  text-decoration: none;
+  color: #000;
+}
+
+.categories-list__item {
+  width: 160px;
+  height: 160px;
+  background-color: #f7e296;
+}
+
+.categories-list {
+  display: flex;
+  margin-left: 50px;
+}
+
+.categories-list__item {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.image1 {
+  padding-left: 31px;
+}
+
+.image2 {
+  padding-left: 38px;
+  padding-top: 42px;
+}
+
+.image3 {
+  padding-left: 49px;
+}
+
+.image4 {
+  padding-left: 28px;
+}
+
+.image5 {
+  padding-left: 55px;
+}
+
+.image6 {
+  padding-left: 13px;
+}
+
+.home-page-categories .name {
+  position: absolute;
+  top: 1018px;
+}
+
+.home-page-categories {
+  margin-top: 80px;
+}

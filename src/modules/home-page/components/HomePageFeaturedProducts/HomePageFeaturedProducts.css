@@ -126,3 +126,18 @@
   margin-top: -440px;
   z-index: 2;
 }
+
+ol li {
+  list-style: none;
+}
+
+.featured-slider__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.featured-slider__button {
+  position: relative;
+  margin-top: -203px;
+  right: 250px;
+}
