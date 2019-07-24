@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "MyFont";
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot");
+
+  src: url("Gilroy/Gilroy-ExtraBold.eot?iefix") format("eot"),
+    url("Gilroy/Gilroy-ExtraBold.woff") format("woff"),
+    url("Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+.home-page-services h2 {
+  display: none;
+}
+
+.home-page-services p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.home-page-services h3 {
+  font-family: "MyFont";
+  font-size: 47px;
+}
+
+.home-page-services button {
+  font-family: "MyFont";
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.img2,
+.img3,
+.p2,
+.p3,
+.h3-2,
+.h3-3 {
+  display: none;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+}
