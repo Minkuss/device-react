@@ -16,7 +16,7 @@ export const HomePageFeaturedProducts = () => (
         </p>
         <div className="more-block">
           <a className="more" href="/">
-            Подробнее
+            ПОДРОБНЕЕ
           </a>
         </div>
         <ul className="featured-product__characteristics">

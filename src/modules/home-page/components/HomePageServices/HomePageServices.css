@@ -27,9 +27,12 @@
 }
 
 .home-page-services button {
+  z-index: 1;
   font-family: "MyFont";
   font-size: 18px;
   margin-top: 100px;
+  border: none;
+  position: relative;
 }
 
 ul li {
@@ -48,4 +51,43 @@ ul li {
 .service-list {
   display: flex;
   flex-direction: column;
+}
+
+.home-page-services .btn-1:after {
+  z-index: -1;
+  /* display: block; */
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -25%;
+  width: 160px;
+  height: 8px;
+  transform: translateY(-50%);
+  background-color: #f0c52e;
+}
+
+.home-page-services .btn-2:after {
+  z-index: -1;
+  /* display: block; */
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -33%;
+  width: 160px;
+  height: 8px;
+  transform: translateY(-50%);
+  background-color: #f0c52e;
+}
+
+.home-page-services .btn-3:after {
+  z-index: -1;
+  /* display: block; */
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -54%;
+  width: 160px;
+  height: 8px;
+  transform: translateY(-50%);
+  background-color: #f0c52e;
 }

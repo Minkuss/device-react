@@ -7,7 +7,7 @@ export const HomePageServices = () => (
     <h2>Услуги</h2>
     <ul className="service-list">
       <li className="service-list__item">
-        <button>Доставка</button>
+        <button className="btn-1">ДОСТАВКА</button>
         <h3 className="h3-1">Доставка</h3>
         <p className="p1">
           Мы с удовольствием доставим ваш товар прямо к вашему <br /> подъезду совершенно бесплатно!
@@ -16,7 +16,7 @@ export const HomePageServices = () => (
         <img className="img1" src="assets/images/delivery.png" alt="Доставка" />
       </li>
       <li className="service-list__item">
-        <button>Гарантия</button>
+        <button className="btn-2">ГАРАНТИЯ</button>
         <h3 className="h3-2">Гарантия</h3>
         <p className="p2">
           Если из-за возгорания купленного у нас товара у вас сгорит <br /> дом — не переживайте, мы
@@ -26,7 +26,7 @@ export const HomePageServices = () => (
         <br />
       </li>
       <li className="service-list__item">
-        <button>Кредит</button>
+        <button className="btn-3">КРЕДИТ</button>
         <h3 className="h3-3">Кредит</h3>
         <p className="p3">
           Залезть в долговую яму стало проще! Кредитные <br /> консультанты подберут для вас
